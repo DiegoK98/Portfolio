@@ -560,6 +560,7 @@ section {
   left: 0;
   right: 0;
   bottom: -100%;
+  top: -100%;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -571,7 +572,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: transparent;
   transition: 0.3s;
   width: 100%;
 }
@@ -582,13 +583,13 @@ section {
   font-weight: bold;
   transition: 0.3s;
   color: #111;
-  bottom : 300%;
+  bottom : 18%;
   position: absolute;
   width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(75, 75, 75, 0.384);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
