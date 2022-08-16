@@ -1034,6 +1034,18 @@ section {
   background-color: #149ddd !important;
 }
 
+.portfolio-item .portfolio-info {
+  padding: 10px;
+  padding-left: 20px;
+  position: absolute;
+  left: -7px;
+  top: -15px;
+  background: rgb(73, 73, 73);
+  box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  min-width: 200px;
+}
+
 .portfolio-details .portfolio-info {
   padding: 30px;
   position: absolute;
