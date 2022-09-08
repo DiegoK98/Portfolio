@@ -1,4 +1,4 @@
-function myFunc(birthDate)
+function getAge(birthDate)
 {
     var ageInMS = Date.now() - birthDate.getTime();
     var ageDate = new Date(ageInMS);
@@ -7,4 +7,4 @@ function myFunc(birthDate)
     document.getElementById("ageID").innerHTML = age;
 }
 
-window.onload = myFunc(new Date(1998, 2, 27));
+window.onload = getAge(new Date(1998, 2, 27));
